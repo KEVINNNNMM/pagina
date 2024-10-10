@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo</title>
+    <link rel="stylesheet" href="relox.css  ">
+</head>
+<body>
+    
+    <header>
+            <div class="navbar">
+                <div class="logo">𝙏𝙃𝙀 𝙒𝙊𝙍𝙇𝘿 𝘾𝙇𝙊𝘾𝙆</div>
+                <div class="nav-links">
+                    <a href="#">Carrito de compras</a>
+                    <a href="#">¿Quienes somos?</a>
+                    <a href="#">Inicia Sesion</a>
+                    <a href="relox.html">Inicio</a>
+                </div>
+            </div>
+    </header>
+    <main>
+        <section class="product-catalog">
+            <div class="product-card" data-product="Reloj de pared 1">
+                <img src="reloj1.jpg" alt="Reloj de pared 1">
+                <div class="product-info">
+                    <h2>Reloj de pared 1</h2>
+                    <p>$44.900</p>
+                    <button class="buy-button" onclick="viewOffers()">Agregar</button>
+                </div>
+            </div>
+            <div class="product-card" data-product="Reloj de pared 2">
+                <img src="reloj2.jpg" alt="Reloj de pared 2">
+                <div class="product-info">
+                    <h2>Reloj de pared 2</h2>
+                    <p>$49.900</p>
+                    <button class="buy-button" onclick="addToCart('Reloj de pared 2')">Agregar</button>
+                </div>
+            </div>
+            <div class="product-card" data-product="Reloj de pared 3">
+                <img src="reloj3.jpg" alt="Reloj de pared 3">
+                <div class="product-info">
+                    <h2>Reloj de pared 3</h2>
+                    <p>$50.000</p>
+                    <button class="buy-button" onclick="addToCart('Reloj de pared 3')">Agregar</button>
+                </div>
+            </div>
+            <div class="product-card" data-product="Reloj de pared 4">
+                <img src="reloj4.jpg" alt="Reloj de pared 4">
+                <div class="product-info">
+                    <h2>Reloj de pared 4</h2>
+                    <p>$47.000</p>
+                    <button class="buy-button" onclick="addToCart('Reloj de pared 4')">Agregar</button>
+                </div>
+            </div>
+            <div class="product-card" data-product="Reloj de pared 5">
+                <img src="reloj5.jpg" alt="Reloj de pared 5">
+                <div class="product-info">
+                    <h2>Reloj de pared 5</h2>
+                    <p>$44.900</p>
+                    <button class="buy-button" onclick="addToCart('Reloj de pared 5')">Agregar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
